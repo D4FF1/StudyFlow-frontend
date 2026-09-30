@@ -1,1 +1,18 @@
 .form-error{display:none;color:#b65343;background:#fff0ec;border:1px solid #f3c9c0;border-radius:8px;padding:9px 10px;font-size:11px;line-height:1.4}.form-error.show{display:block}.session-actions{display:flex;gap:3px;margin-top:5px}.session-actions button{background:rgba(255,255,255,.58);border-radius:4px;padding:2px;color:inherit}.session-actions svg{width:12px;height:12px}.agenda-session{position:relative}.agenda-session .session-actions{position:absolute;right:8px;top:9px}.quick-actions{display:grid;gap:7px;padding:10px}.quick-actions button{display:flex;align-items:center;gap:10px;text-align:left;padding:12px;border-radius:9px;background:transparent}.quick-actions button:hover{background:#f1f6eb}.quick-actions svg{color:var(--teal)}
+
+.why-task{margin:2px 0 4px;padding:12px 13px;background:#f8faf6;border:1px solid var(--line);border-radius:10px}
+.why-task>strong{font-size:11px}
+.why-task ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 10px;list-style:none;padding:0;margin:8px 0 0}
+.why-task li{color:var(--muted);font-size:11px;line-height:1.4}
+.why-task li::before{content:'+';color:var(--teal);font-weight:700;margin-right:6px}
+.milestone-toggle{width:100%;display:flex;align-items:center;gap:8px;padding:8px 2px;background:transparent;text-align:left;color:inherit}
+.milestone-toggle svg{flex:none}
+.milestones li{padding-top:0}
+.time-inputs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.deadline.overdue{color:#b65343;font-weight:700}
+.deadline.due-soon{color:var(--teal);font-weight:700}
+.task-estimate{color:var(--muted);font-size:10px}
+.empty button{margin-top:14px}
+.panel-link{padding:0;background:transparent;color:var(--teal);font-size:11px;font-weight:700}
+.command-empty{padding:22px;text-align:center;color:var(--muted);font-size:12px}

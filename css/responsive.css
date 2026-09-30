@@ -3,7 +3,14 @@
   .modal { max-height: calc(100vh - 30px); overflow-y: auto; }
   .toast-wrap { left: 15px; right: 15px; bottom: 76px; }
   .toast { justify-content: center; }
+  .task-table { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 }
 @media (min-width: 721px) {
   .mobile-menu { display: none; }
+}
+
+@media (max-width: 720px) {
+  .why-task ul { grid-template-columns: 1fr; }
+  .modal-foot { flex-wrap: wrap; }
+  .modal-foot button { min-height: 42px; }
 }
