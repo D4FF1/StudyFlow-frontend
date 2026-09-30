@@ -1,0 +1,5 @@
+/* Small, purposeful motion primitives shared by app surfaces. */
+@keyframes studyflow-rise { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+@keyframes studyflow-success { 0% { transform: scale(.96); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+.view { animation: studyflow-rise .3s ease both; }
+.focus-task, .toast { animation: studyflow-success .22s ease both; }

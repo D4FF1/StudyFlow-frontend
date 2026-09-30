@@ -1,0 +1,9 @@
+/* Responsive layout overrides. The base visual system remains in main.css. */
+@media (max-width: 720px) {
+  .modal { max-height: calc(100vh - 30px); overflow-y: auto; }
+  .toast-wrap { left: 15px; right: 15px; bottom: 76px; }
+  .toast { justify-content: center; }
+}
+@media (min-width: 721px) {
+  .mobile-menu { display: none; }
+}
